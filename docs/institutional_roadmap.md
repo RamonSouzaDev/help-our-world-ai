@@ -28,12 +28,17 @@
 
 ---
 
-### 2. Academic Opportunities (Masters/PhD)
+### 2. Academic Opportunities (Masters/PhD/MD)
 This project is a strong portfolio piece for applying to:
 
-1.  **USP / ICMC (São Carlos)**
+1.  **Medicine (MD) - UNIP (Universidade Paulista)**
+    *   **Status**: Application in progress (ENEM 2026 - Registration #20261202049).
+    *   **Goal**: Bridge the gap between Clinical Medicine and Systems Engineering.
+
+2.  **USP / ICMC (São Carlos)**
     *   **Area**: Bioinformática / Computação Aplicada.
     *   **Research**: "Sistemas Embarcados Críticos" (Safety-Critical Embedded Systems).
+
 
 2.  **Unifesp (Universidade Federal de São Paulo)**
     *   **Program**: Mestrado Profissional em Tecnologia e Inovação em Saúde.
