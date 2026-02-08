@@ -1,0 +1,7 @@
+Legal Disclaimer:
+
+This software ("Health Sentinel") is a prototype for educational and research purposes.
+While designed in adherence to ANVISA RDC 751/2022 and LGPD standards, it is NOT currently certified for clinical use.
+
+Use at your own risk. In case of medical emergency, contact 192 (SAMU) or 193 (Bombeiros) immediately.
+Attempting to use this software for actual patient diagnosis without ANVISA registration constitutes a violation of Brazilian Federal Law (Lei 6.360/76).

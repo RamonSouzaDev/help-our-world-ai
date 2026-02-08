@@ -1,0 +1,7 @@
+colorama
+pandas
+requests
+scikit-learn
+streamlit
+plotly
+watchdog
