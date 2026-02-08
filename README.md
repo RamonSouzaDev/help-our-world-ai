@@ -39,3 +39,9 @@ git clone https://github.com/RamonSouzaDev/help-our-world-ai
 # Run the Medical Sentinel Simulation
 python src/main.py
 ```
+
+## 🩺 About the Author
+**Ramon Mendes** is a Systems Engineer transitioning into Medicine. 
+- **Engineering Background**: Aerospace Safety Systems (ITA Project), AI Development. **CREA-SP ART registration for this project is scheduled for March 2026.**
+- **Medical Journey**: Currently applying for **Medicine at UNIP (Universidade Paulista)** via ENEM 2026 (Ref: 20261202049), with the goal of pioneering "Computational Medicine" in Brazil.
+- **Vision**: To integrate strict engineering safety standards (ISO/IEC) into clinical environments to save lives.
