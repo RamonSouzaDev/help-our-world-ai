@@ -42,13 +42,24 @@ def main():
     # Sidebar: Control Panel
     st.sidebar.header("🕹️ Simulation Controls")
     simulation_speed = st.sidebar.slider("Simulation Speed (ms)", 100, 2000, 1000)
+    
+    # Accessibility Controls
+    st.sidebar.markdown("---")
+    st.sidebar.header("♿ Accessibility")
+    high_contrast = st.sidebar.toggle("High Contrast Mode", help="Optimized for low vision and WCAG 2.1 compliance")
+    
     inject_event = st.sidebar.button("⚠️ INJECT SEPSIS EVENT")
     
     # Regional Context
     gov_data = st.session_state['gov_api'].fetch_epidemiological_alerts()
-    st.sidebar.markdown("---")
-    st.sidebar.subheader(f"🌍 Region: {gov_data['region']}")
-    st.sidebar.error(f"Active Outbreaks: {', '.join([o['disease'] for o in gov_data['active_outbreaks']])}")
+    st.sidebar.markdown("---\n")
+    
+    if high_contrast:
+        st.sidebar.subheader(f"REGION: {gov_data['region']}")
+        st.sidebar.error(f"OUTBREAKS: {', '.join([o['disease'] for o in gov_data['active_outbreaks']])}")
+    else:
+        st.sidebar.subheader(f"🌍 Region: {gov_data['region']}")
+        st.sidebar.error(f"Active Outbreaks: {', '.join([o['disease'] for o in gov_data['active_outbreaks']])}")
 
     # Main Dashboard
     placeholder = st.empty()
@@ -77,6 +88,10 @@ def main():
         
     df = pd.DataFrame(st.session_state['history'])
 
+    # Accessibility: Dynamic Color Palettes
+    color_hr = "#FFFFFF" if high_contrast else "#FF4B4B"
+    color_bg = "#000000" if high_contrast else "#1E1E1E"
+    
     with placeholder.container():
         # KPI Metrics
         kpi1, kpi2, kpi3, kpi4 = st.columns(4)
@@ -91,10 +106,15 @@ def main():
         chart1, chart2 = st.columns(2)
         
         with chart1:
-            st.subheader("❤️ Cardiac Rhythm (Real-Time)")
+            st.subheader("Cardiology (Real-Time)")
             if not df.empty:
                 fig_hr = go.Figure()
-                fig_hr.add_trace(go.Scatter(y=df["HR"], mode='lines+markers', name='HR', line=dict(color='red')))
+                fig_hr.add_trace(go.Scatter(
+                    y=df["HR"], 
+                    mode='lines+markers', 
+                    name='HR', 
+                    line=dict(color=color_hr, width=4 if high_contrast else 2) 
+                ))
                 fig_hr.update_layout(height=300, margin=dict(l=20, r=20, t=20, b=20))
                 st.plotly_chart(fig_hr, use_container_width=True)
 

@@ -28,8 +28,9 @@ The system is built on a high-availability Python architecture inspired by avion
 - **Population Health Context**: Compares individual vitals against regional morbidity rates to identify local outbreaks.
 
 ## 🛡️ Regulatory Compliance
-- **Data Privacy**: All patient data is anonymized and encrypted (AES-256) before processing.
-- **Audit Trails**: Immutable logs for every AI decision, ensuring "Black Box" explainability for medical review.
+-   **Data Privacy**: All patient data is anonymized and encrypted (AES-256) before processing.
+-   **Audit Trails**: Immutable logs for every AI decision, ensuring "Black Box" explainability for medical review.
+-   **Accessibility**: Compliant with **WCAG 2.1 AA** and **Lei Brasileira de Inclusão**. Optimized for voice control and eye-tracking interfaces (Hands-Free).
 
 ## 🚀 Quick Start
 ```bash

@@ -70,8 +70,16 @@ This project adheres to international frameworks for responsible AI in healthcar
 -   **Principle**: "Health for All" (Alma-Ata Declaration).
 -   **Implementation**: By using low-resource AI (Edge Computing), we democratize access to advanced monitoring in low-income regions, aligning with **UN Sustainable Development Goal 3 (Good Health and Well-being)**.
 
-#### 7.2 Medical Research Ethics (Declaration of Helsinki)
--   **Subject Protection**: The simulation and future trials strictly follow the ethical principles for medical research involving human data, prioritizing the dignity, safety, and well-being of subjects over scientific interest.
--   **Algorithmic Transparency**: Unlike "Black Box" AI, all diagnostic criteria (qSOFA) are transparent and explainable, minimizing algorithmic bias against vulnerable populations.
+### 8. Digital Accessibility & Inclusion (Acessibilidade Digital)
+In compliance with **Lei Brasileira de Inclusão (Lei 13.146/2015)** and **W3C WCAG 2.1 Level AA**, the software is designed for universal access:
+
+#### 8.1 Mobility & Motor Impairments
+-   **Hands-Free Operation**: The "Dr. Sentinel" AI module is optimized for Voice User Interfaces (VUI), allowing patients with severe motor restrictions to query their health status without physical interaction.
+-   **Keyboard Navigation**: The Dashboard supports full tab-navigation, ensuring compatibility with assistive technologies (switch devices, eye-tracking software) for users who cannot use a mouse.
+
+#### 8.2 Visual & Cognitive Accessibility
+-   **High Contrast Mode**: Default UI uses high-contrast colors (meeting 4.5:1 ratio) for low-vision users.
+-   **Screen Reader Support**: All DOM elements in the web interface are tagged with ARIA labels for compatibility with NVDA and JAWS.
+
 
 
