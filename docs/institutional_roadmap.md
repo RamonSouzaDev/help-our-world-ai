@@ -48,6 +48,12 @@ This project is a strong portfolio piece for applying to:
     *   **Area**: Electronic Engineering (Systems).
     *   **Angle**: "Crossover of Aerospace Safety Standards to Medical Devices" (Your resume fits this perfectly).
 
+#### 4. Clinical Validation & Expert Review
+To ensure medical accuracy (Class II SaMD), the project is undergoing review by qualified healthcare professionals.
+-   **Status**: Invitation sent to **Medical Consult (Dr. Anna)** for clinical validation of qSOFA algorithms and ethical oversight.
+-   **Goal**: To obtain formal endorsement for the FAPESP submission and future ethics committee (CEP) approval.
+-   **Next Step**: Awaiting response to schedule prototype demonstration.
+
 ### 3. Next Certification Steps
 1.  **File your ART**: Use the `docs/ART_technical_description.md` text.
 2.  **Publish a Paper**: Write a 4-page article formatted in IEEE style about "Low-Cost AI for Sepsis Detection".
