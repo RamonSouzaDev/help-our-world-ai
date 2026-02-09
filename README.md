@@ -61,6 +61,13 @@ python src/main.py
   - *Universidade Paulista (UNIP)*
   - Core Competencies: Cryptography, Penetration Testing (9.5), Network Security (8.5), Computer Forensics, Risk Management.
 
+### 🏛️ Government & Public Sector Experience
+- **State of São Paulo - PRODAM (Companhia de Processamento de Dados do Estado de SP)**
+  - **Role**: Software Architecture Team (Health Enhancements).
+  - **Project**: Developed the **Statewide Attendance System** (Sistema de Atendimento ao Cidadão), implemented across the entire State of São Paulo to modernize public service delivery.
+  - **Impact**: Improving transparency and efficiency in citizen attendance, verifiable via [Portal da Transparência](https://www.transparencia.sp.gov.br/).
+  - **Tech Stack**: High-availability distributed systems for millions of users.
+
 ### 🧩 Foundation Technical Training
 - **Logic of Programming (2017)**
   - *SENAI (Serviço Nacional de Aprendizagem Industrial)*
