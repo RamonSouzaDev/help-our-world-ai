@@ -40,8 +40,34 @@ git clone https://github.com/RamonSouzaDev/help-our-world-ai
 python src/main.py
 ```
 
-## 🩺 About the Author
-**Ramon Mendes** is a Systems Engineer transitioning into Medicine. 
-- **Engineering Background**: Aerospace Safety Systems (ITA Project), AI Development. **CREA-SP ART registration for this project is scheduled for March 2026.**
-- **Medical Journey**: Currently applying for **Medicine at UNIP (Universidade Paulista)** via ENEM 2026 (Ref: 20261202049), with the goal of pioneering "Computational Medicine" in Brazil.
-- **Vision**: To integrate strict engineering safety standards (ISO/IEC) into clinical environments to save lives.
+## 🎓 Academic Credentials & Specializations
+**Ramon de Souza Mendes** (CREA-SP: 5071785098) holds a robust portfolio of qualifications underpinning this engineering project:
+
+### 📄 Post-Graduation
+- **Machine Learning Engineering (Ongoing 2026)**
+  - *Superintensive Program* | Start: Feb/2026
+  - Focus: Advanced ML Algorithms & AI Systems Engineering.
+- **MBA in Strategic IT Management (2025)**
+  - *Universidade Pitágoras Unopar Anhanguera*
+  - Focus: IT Governance, Cloud Infrastructure, Strategic Information Management.
+  - **Grade Excellence**: 9.0+ average in Strategic Management & Cloud Architectures.
+- **Specialization in Software Architecture (2024)**
+  - *Universidade Pitágoras Unopar Anhanguera*
+  - Key Skills: Cloud Architecture, DevOps Culture, API/Web Services, Data Warehouse Modeling.
+  - **Grade Excellence**: 10.0 in Cloud Infra, Mobile Apps, Software Architecture.
+
+### 🛡️ Undergraduate Degree
+- **Technology in Information Security (2021-2024)**
+  - *Universidade Paulista (UNIP)*
+  - Core Competencies: Cryptography, Penetration Testing (9.5), Network Security (8.5), Computer Forensics, Risk Management.
+
+### 🧩 Foundation Technical Training
+- **Logic of Programming (2017)**
+  - *SENAI (Serviço Nacional de Aprendizagem Industrial)*
+  - Foundation of Algorithmic Thinking and Structured Programming.
+
+---
+> *"Innovation distinguishes between a leader and a follower."*
+
+**Contact**: [LinkedIn Profile](https://www.linkedin.com/in/ramon-mendes-b44456164/)
+

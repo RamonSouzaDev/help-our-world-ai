@@ -37,7 +37,7 @@ The system follows a microservices-ready architecture for high availability and 
 -   **Stress Testing**: Simulated outbreak load (10,000 concurrent signals).
 
 ### 4. Professional Responsibility
-**Technical Reponsible**: Ramon Mendes
+**Technical Responsible**: Ramon Mendes (CREA-SP: 5071785098)
 **CREA Activity Code**: #A026 (Development of Technical Software)
 **ART Type**: Obra ou Serviço (Software Engineering Project)
 **Filing Schedule**: Registration to be formalized by **March 2026**.
