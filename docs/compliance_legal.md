@@ -61,3 +61,17 @@ This project is aligned with the **Estratégia de Saúde Digital para o Brasil 2
 -   **Objective**: To support decision-making in public health management.
 -   **Alignment**: The aggregated, anonymized epidemiological data feeds directly into the surveillance goals of **SVS (Secretaria de Vigilância em Saúde)** for disease outbreak monitoring.
 
+---
+
+### 7. Global Standards & Medical Ethics Compliance (WHO/ONU)
+This project adheres to international frameworks for responsible AI in healthcare.
+
+#### 7.1 WHO Digital Health Strategy (2020-2025)
+-   **Principle**: "Health for All" (Alma-Ata Declaration).
+-   **Implementation**: By using low-resource AI (Edge Computing), we democratize access to advanced monitoring in low-income regions, aligning with **UN Sustainable Development Goal 3 (Good Health and Well-being)**.
+
+#### 7.2 Medical Research Ethics (Declaration of Helsinki)
+-   **Subject Protection**: The simulation and future trials strictly follow the ethical principles for medical research involving human data, prioritizing the dignity, safety, and well-being of subjects over scientific interest.
+-   **Algorithmic Transparency**: Unlike "Black Box" AI, all diagnostic criteria (qSOFA) are transparent and explainable, minimizing algorithmic bias against vulnerable populations.
+
+
