@@ -105,9 +105,16 @@ def main():
         # Charts
         chart1, chart2 = st.columns(2)
         
+        # Charts - ACCESSIBILITY FOR BLIND USERS
+        # Screen readers cannot read Plotly charts. We must provide a text summary.
+        chart1, chart2 = st.columns(2)
+        
         with chart1:
             st.subheader("Cardiology (Real-Time)")
             if not df.empty:
+                # Text Summary for Screen Readers (Hidden visually or just plain text)
+                st.markdown(f"**Accessibility Summary**: The heart rate graph shows a trend from {df['HR'].iloc[0]} to {df['HR'].iloc[-1]} BPM over the last {len(df)} seconds.", help="Text description of the chart for screen readers.")
+                
                 fig_hr = go.Figure()
                 fig_hr.add_trace(go.Scatter(
                     y=df["HR"], 
@@ -115,8 +122,27 @@ def main():
                     name='HR', 
                     line=dict(color=color_hr, width=4 if high_contrast else 2) 
                 ))
-                fig_hr.update_layout(height=300, margin=dict(l=20, r=20, t=20, b=20))
+                fig_hr.update_layout(
+                    height=300, 
+                    margin=dict(l=20, r=20, t=20, b=20),
+                    paper_bgcolor=color_bg,
+                    plot_bgcolor=color_bg,
+                    font=dict(color=color_hr)
+                )
                 st.plotly_chart(fig_hr, use_container_width=True)
+
+    # Accessibility: Voice Command Simulation (Reduced Mobility)
+    st.markdown("---")
+    st.subheader("🎤 Voice Command Interface (Accessibility)")
+    col_mic, col_status = st.columns([1, 4])
+    with col_mic:
+        voice_active = st.toggle("Enable Microphone", help="Activate hands-free voice control for users with reduced mobility.")
+    with col_status:
+        if voice_active:
+            st.info("Listening... (Simulated: Say 'Report Status' or 'Call Nurse')")
+            if diagnosis["status"] == "CRITICAL":
+                st.warning("Voice System Detecting Agonal Breathing Patterns.")
+
 
         with chart2:
             st.subheader("🌬️ Oxygen Saturation")
